@@ -1,13 +1,13 @@
 # Prédiction de la qualité de soudures
 
-Projet **3IF3010 — Apprentissage automatique** · CentraleSupélec 3A Mention IA
+Projet **3IF3010 - Apprentissage automatique** · CentraleSupélec 3A Mention IA
 Rendu : **12 octobre 2026**
 
 ## Équipe
 
 | Nom | Mail | GitHub |
 |---|---|---|
-| Jules Mortreux | | |
+| Jules Mortreux |jules.mortreux@student-cs.fr|@julesmortreux |
 | | | |
 | | | |
 | | | |
@@ -25,7 +25,7 @@ partie du travail.
 
 ## Données
 
-`welddb` — MAP Data Library, University of Cambridge
+`welddb` - MAP Data Library, University of Cambridge
 <https://www.phase-trans.msm.cam.ac.uk/map/data/materials/welddb-b.html>
 
 **1652 soudures × 44 variables.** Fichier brut versionné dans `data/raw/`,
