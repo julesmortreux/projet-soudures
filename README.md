@@ -8,7 +8,7 @@ Rendu : **12 octobre 2026**
 | Nom | Mail | GitHub |
 |---|---|---|
 | Jules Mortreux |jules.mortreux@student-cs.fr|@julesmortreux |
-| | | |
+| Marie Gozlan | marie.gozlan@student-cs.fr | @MarieGozlan |
 | | | |
 | | | |
 
