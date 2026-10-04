@@ -9,7 +9,7 @@ Rendu : **12 octobre 2026**
 |---|---|---|
 | Jules Mortreux |jules.mortreux@student-cs.fr|@julesmortreux |
 | Marie Gozlan | marie.gozlan@student-cs.fr | @MarieGozlan |
-| | | |
+| Pétronille Tard | petronille.tard@student-cs.fr | @petronilletard |
 | | | |
 
 Numéro d'équipe : *à compléter* · Groupe de TD : *à compléter*
