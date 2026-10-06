@@ -1,0 +1,16 @@
+{
+  "lignes": 1652,
+  "colonnes": 44,
+  "soudures_distinctes": 624,
+  "cellules_manquantes": 33141,
+  "pct_manquant": 45.6,
+  "valeurs_censurees": 1576,
+  "valeurs_non_interpretees": 0,
+  "cibles_exploitables": [
+    "YieldStrength_MPa",
+    "UTS_MPa",
+    "Elongation_pct",
+    "ReductionArea_pct",
+    "CharpyToughness_J"
+  ]
+}

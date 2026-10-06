@@ -1,0 +1,44 @@
+famille,variable,remplissage_%,n_renseigne
+1. composition,C,100.0,1652
+1. composition,Si,100.0,1652
+1. composition,Mn,100.0,1652
+1. composition,S,99.8,1648
+1. composition,P,99.4,1642
+1. composition,O_ppm,76.0,1256
+1. composition,N_ppm,75.2,1242
+1. composition,Ti_ppm,56.6,935
+1. composition,V,56.2,928
+1. composition,Al_ppm,54.8,905
+1. composition,Mo,48.0,793
+1. composition,Cr,47.5,784
+1. composition,Nb_ppm,45.5,752
+1. composition,Ni,42.2,697
+1. composition,Cu,35.0,578
+1. composition,B_ppm,30.5,504
+1. composition,Sn_ppm,17.9,296
+1. composition,Sb_ppm,15.7,260
+1. composition,As_ppm,14.2,234
+1. composition,Co,7.8,129
+1. composition,W,4.5,75
+2. procede,HeatInput_kJmm,100.0,1652
+2. procede,InterpassT_C,100.0,1652
+2. procede,WeldType,100.0,1652
+2. procede,PWHT_T_C,99.2,1639
+2. procede,PWHT_time_h,99.2,1639
+2. procede,Electrode_pol,90.6,1496
+2. procede,AC_DC,87.0,1437
+2. procede,Current_A,85.0,1404
+2. procede,Voltage_V,85.0,1404
+3. mecanique (cibles),CharpyT_C,53.2,879
+3. mecanique (cibles),CharpyToughness_J,53.2,879
+3. mecanique (cibles),YieldStrength_MPa,47.2,780
+3. mecanique (cibles),UTS_MPa,44.7,738
+3. mecanique (cibles),ReductionArea_pct,42.7,705
+3. mecanique (cibles),Elongation_pct,42.4,700
+3. mecanique (cibles),Hardness,8.4,138
+3. mecanique (cibles),FATT50,1.9,31
+4. microstructure,PrimaryFerrite_pct,5.9,98
+4. microstructure,FerriteSecondPhase_pct,5.4,90
+4. microstructure,AcicularFerrite_pct,5.4,90
+4. microstructure,Martensite_pct,5.4,89
+4. microstructure,FerriteCarbide_pct,5.4,89
