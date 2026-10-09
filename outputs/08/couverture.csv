@@ -1,0 +1,7 @@
+cible,mesures_exigees,lignes_total,pct_du_jeu,lignes_dev,lignes_test,soudures
+y1 UTS seule,1,738,44.7,599,139,533
+y2 UTS + allongement (actuelle),2,666,40.3,539,127,480
+y3 quatre proprietes de traction,4,650,39.3,527,123,469
+y4 tenacite Charpy brute,1,879,53.2,684,195,341
+y5 tenacite a temperature comparable,2,879,53.2,684,195,341
+strategie 2 : y3 et y5 en deux modeles,6,1395,84.4,1102,293,511

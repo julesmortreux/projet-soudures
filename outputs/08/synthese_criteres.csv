@@ -1,0 +1,6 @@
+cible,mesures_combinees,lignes_exploitables,desequilibre_absolu,proprietes_au_dessus_moyenne,jaccard_moyen,gain_sur_reference
+y1 UTS seule,1,738,0.66,2,1.0,0.5123735384679338
+y2 UTS + allongement (actuelle),2,666,0.092,3,0.929,0.3136899765148121
+y3 quatre proprietes de traction,4,650,0.053,5,0.931,0.3738088225880519
+y4 tenacite Charpy brute,1,879,0.846,3,1.0,
+y5 tenacite a temperature comparable,2,879,0.478,3,0.922,0.2582223220727441

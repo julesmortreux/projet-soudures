@@ -1,0 +1,6 @@
+cible,tirages_retenus,jaccard_moyen,jaccard_minimum
+y1 UTS seule,30,1.0,1.0
+y2 UTS + allongement (actuelle),30,0.9289062043405177,0.7851239669421488
+y3 quatre proprietes de traction,30,0.9311273108335416,0.811965811965812
+y4 tenacite Charpy brute,30,1.0,1.0
+y5 tenacite a temperature comparable,30,0.9218232850500079,0.7341772151898734
