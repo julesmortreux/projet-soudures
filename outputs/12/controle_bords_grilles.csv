@@ -1,0 +1,18 @@
+modele,hyperparametre,valeur retenue,plage testee,au bord
+Arbre,max_depth,20.0,2 a 20,True
+Arbre,min_samples_leaf,2.0,1 a 20,False
+Regression logistique,C,100.0,0.001 a 1000.0,False
+k plus proches voisins,n_neighbors,3.0,1 a 50,False
+SVM,C,100.0,0.1 a 100,True
+SVM,gamma,0.1,0.003 a 0.1,True
+Bayesien naif,var_smoothing,0.01,1e-10 a 0.01,True
+Forêt aleatoire,max_depth,12.0,6 a 20,False
+Forêt aleatoire,max_features,0.25,0.25 a 0.75,True
+Forêt aleatoire,min_samples_leaf,1.0,1 a 5,True
+Forêt aleatoire,n_estimators,100.0,100 a 500,True
+Bagging,max_samples,1.0,0.5 a 1.0,True
+Bagging,estimator__min_samples_leaf,1.0,1 a 5,True
+Bagging,n_estimators,100.0,100 a 500,True
+Boosting,learning_rate,0.1,0.03 a 0.3,False
+Boosting,max_iter,400.0,100 a 400,True
+Boosting,max_leaf_nodes,31.0,7 a 31,True

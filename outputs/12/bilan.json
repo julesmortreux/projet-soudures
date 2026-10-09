@@ -1,0 +1,43 @@
+{
+  "graine": 42,
+  "sklearn": "1.7.2",
+  "question": "lever la reserve de la section 5.4 du notebook 08 sur le reglage des classifieurs",
+  "configurations_testees": 820,
+  "decoupages": {
+    "trois classes": [
+      "faible",
+      "moyen",
+      "eleve"
+    ],
+    "deux classes": [
+      "a_reprendre",
+      "acceptable"
+    ]
+  },
+  "seuil_rebut": 0.25,
+  "meilleur_trois_classes": "Forêt aleatoire",
+  "f1_trois_classes": 0.6273719758907831,
+  "meilleur_deux_classes": "SVM",
+  "f1_deux_classes": 0.817665708988506,
+  "hyperparametres_trois_classes": {
+    "Reference": "{}",
+    "Arbre": "{'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}",
+    "Regression logistique": "{'C': 100.0}",
+    "k plus proches voisins": "{'n_neighbors': 3, 'p': 1, 'preparation__n_axes': 8, 'weights': 'distance'}",
+    "SVM": "{'C': 100, 'gamma': 0.1, 'kernel': 'poly'}",
+    "Bayesien naif": "{'var_smoothing': 0.01}",
+    "Forêt aleatoire": "{'max_depth': 12, 'max_features': 0.25, 'min_samples_leaf': 1, 'n_estimators': 100}",
+    "Bagging": "{'estimator__min_samples_leaf': 1, 'max_samples': 1.0, 'n_estimators': 100}",
+    "Boosting": "{'learning_rate': 0.1, 'max_iter': 400, 'max_leaf_nodes': 31, 'min_samples_leaf': 5}"
+  },
+  "hyperparametres_au_bord": 12,
+  "parametres_seuillage_regression": {
+    "learning_rate": 0.05,
+    "max_iter": 400,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 5
+  },
+  "verdict": "seuillage d'une regression reglee",
+  "decision": "la regression seuillee est retenue ; la classification directe est ecartee apres reglage complet",
+  "test_consulte": false
+}
