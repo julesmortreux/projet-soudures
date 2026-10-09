@@ -1,0 +1,89 @@
+{
+  "graine": 42,
+  "sklearn": "1.7.2",
+  "cible": "y3",
+  "source": "outputs/08/dataset_traction_y3.csv",
+  "remplace": "outputs/02/dataset_traction.csv",
+  "selection_colonnes_identique_a_y2": true,
+  "k_kmeans_retenu": 4,
+  "configurations_testees": 510,
+  "modele_retenu": "Forêt aleatoire",
+  "hyperparametres_retenus": {
+    "Moyenne constante": "{}",
+    "Arbre": "{'max_depth': 20, 'min_samples_leaf': 5, 'min_samples_split': 20}",
+    "Bagging": "{'estimator__min_samples_leaf': 1, 'max_samples': 1.0, 'n_estimators': 100}",
+    "Forêt aleatoire": "{'max_depth': None, 'max_features': 0.25, 'min_samples_leaf': 1, 'n_estimators': 100}",
+    "Regression lineaire": "{'preparation__indicateurs': False}",
+    "Ridge": "{'alpha': 31.622776601683793, 'preparation__indicateurs': True}",
+    "Lasso": "{'alpha': 0.00046415888336127773, 'preparation__indicateurs': True}",
+    "Lineaire apres ACP": "{'preparation__n_axes': 20}",
+    "k plus proches voisins": "{'n_neighbors': 7, 'p': 1, 'preparation__n_axes': None, 'weights': 'distance'}"
+  },
+  "RMSE_validation_groupes": {
+    "Moyenne constante": 0.13176016860335577,
+    "Arbre": 0.102456935609669,
+    "Bagging": 0.08305505996805106,
+    "Forêt aleatoire": 0.08166584796609325,
+    "Regression lineaire": 0.10411970157783794,
+    "Ridge": 0.09790386367820163,
+    "Lasso": 0.09852299925863468,
+    "Lineaire apres ACP": 0.10228113628014449,
+    "k plus proches voisins": 0.09043048532383183
+  },
+  "gain_validation_sur_reference": {
+    "Moyenne constante": 0.0,
+    "Arbre": 0.22239826576041932,
+    "Bagging": 0.3696497139581244,
+    "Forêt aleatoire": 0.3801932038206779,
+    "Regression lineaire": 0.2097786251983732,
+    "Ridge": 0.2569540194432619,
+    "Lasso": 0.25225506082021343,
+    "Lineaire apres ACP": 0.22373250304463022,
+    "k plus proches voisins": 0.31367357614683045
+  },
+  "test": {
+    "Forêt aleatoire": {
+      "RMSE_groupes": 0.08266450780062248,
+      "MAE_groupes": 0.05748068739739556,
+      "R2_groupes": 0.5894394377345535,
+      "RMSE_lignes": 0.0790821899973462,
+      "gain sur la reference": 0.39490688087050363
+    },
+    "Bagging": {
+      "RMSE_groupes": 0.08534886480721408,
+      "MAE_groupes": 0.06102187094006009,
+      "R2_groupes": 0.5623423145825772,
+      "RMSE_lignes": 0.081468715005634,
+      "gain sur la reference": 0.37525774731619477
+    },
+    "Ridge": {
+      "RMSE_groupes": 0.09412041147779161,
+      "MAE_groupes": 0.06989385475577081,
+      "R2_groupes": 0.467760998905307,
+      "RMSE_lignes": 0.09235944454794769,
+      "gain sur la reference": 0.31105120117318685
+    },
+    "k plus proches voisins": {
+      "RMSE_groupes": 0.09739849890289622,
+      "MAE_groupes": 0.06723957501284643,
+      "R2_groupes": 0.4300410361658107,
+      "RMSE_lignes": 0.09378996922866505,
+      "gain sur la reference": 0.28705604052189726
+    },
+    "Arbre": {
+      "RMSE_groupes": 0.103746508902664,
+      "MAE_groupes": 0.07581097154480611,
+      "R2_groupes": 0.35332504127302355,
+      "RMSE_lignes": 0.10572297436147997,
+      "gain sur la reference": 0.2405894580281247
+    },
+    "Moyenne constante": {
+      "RMSE_groupes": 0.13661452293416576,
+      "MAE_groupes": 0.11591496184554688,
+      "R2_groupes": -0.12132834595362296,
+      "RMSE_lignes": 0.13239529073236084,
+      "gain sur la reference": 0.0
+    }
+  },
+  "regle_selection": "plus petite moyenne des cinq RMSE par groupes sur developpement"
+}
