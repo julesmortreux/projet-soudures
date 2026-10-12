@@ -1,0 +1,6 @@
+cible,tirages,Jaccard moyen,Jaccard minimum
+y1 résistance seule,30,1.0,1.0
+y2 résistance et allongement,30,0.9002853825219541,0.7419354838709677
+y3 quatre propriétés de traction,30,0.917733079917187,0.811965811965812
+y4 résilience brute,30,1.0,1.0
+y5 résilience à température comparable,30,0.9538341262617099,0.8389261744966443

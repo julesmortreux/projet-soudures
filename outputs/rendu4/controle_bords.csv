@@ -1,0 +1,20 @@
+modèle,hyperparamètre,valeur retenue,plage testée,verdict
+Arbre,max_depth,20.0,2 a 20,A ELARGIR
+Arbre,min_samples_leaf,5.0,1 a 20,interieur
+Arbre,min_samples_split,20.0,2 a 20,"bord, mais sans conséquence"
+Ridge,alpha,31.622776601683793,0.001 a 1000.0,interieur
+Lasso,alpha,0.00046415888336127773,1e-05 a 0.1,interieur
+Linéaire après ACP,preparation__n_axes,20.0,1 a 22,interieur
+k plus proches voisins,n_neighbors,7.0,1 a 50,interieur
+SVM de régression,C,1.0,0.1 a 300,interieur
+SVM de régression,gamma,0.03,0.003 a 0.1,interieur
+SVM de régression,epsilon,0.02,0.02 a 0.1,A ELARGIR
+Bagging,max_samples,1.0,0.5 a 1.0,A ELARGIR
+Bagging,estimator__min_samples_leaf,1.0,1 a 10,"bord du domaine, sans objet"
+Bagging,n_estimators,100.0,50 a 500,interieur
+Forêt aléatoire,max_features,0.25,0.1 a 1.0,interieur
+Forêt aléatoire,min_samples_leaf,1.0,1 a 10,"bord du domaine, sans objet"
+Forêt aléatoire,n_estimators,100.0,50 a 500,interieur
+Boosting,learning_rate,0.1,0.03 a 0.3,interieur
+Boosting,max_iter,200.0,100 a 800,interieur
+Boosting,max_leaf_nodes,15.0,7 a 63,interieur

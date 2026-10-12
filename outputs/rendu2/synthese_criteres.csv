@@ -1,0 +1,6 @@
+cible,mesures combinées,soudures couvertes,déséquilibre (valeur absolue),"propriétés au-dessus de 0,5",Jaccard moyen
+y1 résistance seule,1,533,0.617988461372314,2,1.0
+y2 résistance et allongement,2,480,0.06763737287296023,3,0.9002853825219541
+y3 quatre propriétés de traction,4,469,0.01536247623069742,5,0.917733079917187
+y4 résilience brute,1,341,0.8623798749505215,3,1.0
+y5 résilience à température comparable,2,341,0.525381484351338,3,0.9538341262617099

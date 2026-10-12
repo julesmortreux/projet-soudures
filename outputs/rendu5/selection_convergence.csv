@@ -1,0 +1,9 @@
+variable,"rang, sélection ascendante",retenue par le Lasso
+Mn,1,True
+HeatInput_kJmm,2,True
+WeldType_GTAA,3,False
+Ti_ppm,4,True
+PWHT_T_C,5,False
+Si,6,True
+PWHT_time_h,7,True
+B_ppm,8,True

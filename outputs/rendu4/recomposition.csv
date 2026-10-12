@@ -1,0 +1,3 @@
+voie,modèle,erreur,gain sur la référence
+prédiction directe du score,SVM de régression,0.08056001805897908,0.3885859519389889
+recomposition depuis les 4 propriétés,SVM de régression,0.08338157318623168,0.3671716265236469

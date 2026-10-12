@@ -1,0 +1,6 @@
+row_id,WeldID,YieldStrength_MPa,UTS_MPa,taux d'écrouissage,publication
+259,Evans-Cr/CMn-1989-1.0D-aw,692.0,723.0,1.0447976878612717,Evans
+705,SurianEtAl-C-1991-0.05htCh,673.0,680.0,1.0104011887072808,SurianEtAl
+975,Pat-1981-S2Mo/BX200,554.0,554.0,1.0,Pat
+980,Pat-1981-S4Mo/BX200,747.0,747.0,1.0,Pat
+1020,Pat-1981-S4Mo/BX400,689.0,689.0,1.0,Pat
