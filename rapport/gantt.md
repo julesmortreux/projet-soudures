@@ -1,6 +1,7 @@
 # Diagramme de Gantt
 
-Projet 3IF3010, prédiction de la qualité de soudures. Équipe n° [A COMPLETER].
+Projet 3IF3010, prédiction de la qualité de soudures. Équipe de quatre,
+à cheval sur les groupes de TD 1 et 2.
 
 Les dates sont celles de l'historique Git du dépôt, donc vérifiables. Les
 charges sont des estimations déclarées par chaque membre.

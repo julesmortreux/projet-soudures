@@ -1,15 +1,17 @@
 # Prédiction de la qualité de soudures sur aciers
 
-**Équipe n° [A COMPLETER]** · Groupe de TD [A COMPLETER] · 12 octobre 2026
+12 octobre 2026
 
 3IF3010 Apprentissage automatique · CentraleSupélec 3A, Mention IA
 
-| Membre | Adresse |
-|---|---|
-| Marie Gozlan | marie.gozlan@student-cs.fr |
-| Jules Mortreux | jules.mortreux@student-cs.fr |
-| Grégoire Pascual | gregoire.pascual@student-cs.fr |
-| Pétronille Tard | petronille.tard@student-cs.fr |
+| Membre | Adresse | Groupe de TD |
+|---|---|---|
+| Marie Gozlan | marie.gozlan@student-cs.fr | 1 |
+| Jules Mortreux | jules.mortreux@student-cs.fr | 2 |
+| Grégoire Pascual | gregoire.pascual@student-cs.fr | 2 |
+| Pétronille Tard | petronille.tard@student-cs.fr | 2 |
+
+L'équipe est à cheval sur les deux groupes de TD.
 
 Dépôt : `github.com/julesmortreux/projet-soudures`. La série `notebooks/rendu/`
 (1 à 7) présente la chaîne retenue et renvoie aux notebooks d'exploration

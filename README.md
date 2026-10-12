@@ -12,7 +12,8 @@ Rendu : **12 octobre 2026**
 | Pétronille Tard | petronille.tard@student-cs.fr | @petronilletard |
 | Grégoire Pascual | gregoire.pascual@student-cs.fr | @GregP14 |
 
-Numéro d'équipe : *à compléter* · Groupe de TD : *à compléter*
+Pas de numéro d'équipe. Marie est en **groupe de TD 1**, les trois autres en
+**groupe 2** : l'équipe est à cheval sur les deux groupes.
 
 ## Objectif
 
@@ -103,6 +104,7 @@ Les notebooks `01` à `07` et ceux de `notebooks/rendu/` n'ont pas ce décalage.
 - [x] classification et sélection de variables → `notebooks/rendu/5_classification_selection`
 - [x] une méthode semi-supervisée → `notebooks/rendu/6_semi_supervise`
 - [x] synthèse et recommandations → `notebooks/rendu/7_synthese_recommandations`
-- [ ] bibliographie : citations dans le texte et dossier `biblio/`
-- [ ] numéro d'équipe et groupe de TD dans le tableau ci-dessus
-- [ ] rapport 5 pages + Gantt
+- [x] bibliographie : 13 références citées dans le texte du rapport
+- [ ] déposer les PDF des références dans `biblio/`, qui est vide
+- [x] rapport 5 pages + Gantt → `rapport/rapport.md`, `rapport/gantt.md`
+- [ ] charges par tâche du Gantt, à déclarer par chacun
