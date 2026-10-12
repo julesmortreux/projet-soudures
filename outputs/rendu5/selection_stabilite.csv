@@ -1,0 +1,6 @@
+pli,rang 1,rang 2,rang 3,rang 4,rang 5,rang 6
+pli 1,Mn,HeatInput_kJmm,WeldType_GTAA,Si,PWHT_T_C,Mo
+pli 2,Mn,HeatInput_kJmm,WeldType_GTAA,PWHT_T_C,B_ppm,Ti_ppm
+pli 3,Mn,HeatInput_kJmm,WeldType_GTAA,Ti_ppm,Electrode_pol_manquant,Si
+pli 4,Mn,HeatInput_kJmm,WeldType_GTAA,Ti_ppm,Cr,WeldType_SAA
+pli 5,Mn,HeatInput_kJmm,Ti_ppm,B_ppm,PWHT_time_h,WeldType_SAA

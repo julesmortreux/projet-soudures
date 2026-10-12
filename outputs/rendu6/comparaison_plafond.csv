@@ -1,0 +1,4 @@
+modele,classe,erreur,R2,écart au boosting
+"ridge laplacienne, meilleur gamma","linéaire, semi-supervisé",0.10002146731510246,0.40309332172165996,0.2135180537061494
+"ridge laplacienne, gamma nul","linéaire, supervisé",0.10028223779616871,0.39904508634272445,0.21668187138591422
+boosting (notebook 4),"non linéaire, supervisé",0.08242272705348842,0.5885004374038573,0.0

@@ -1,0 +1,147 @@
+{
+  "graine": 42,
+  "configurations_testees": 657,
+  "approche_retenue": "un modele par propriete, score recalcule",
+  "modeles_retenus": {
+    "limite d'élasticité": {
+      "famille": "SVM de régression",
+      "hyperparametres": "{'regressor__C': 100, 'regressor__epsilon': 0.02, 'regressor__gamma': 0.01}"
+    },
+    "résistance à la traction": {
+      "famille": "SVM de régression",
+      "hyperparametres": "{'regressor__C': 100, 'regressor__epsilon': 0.02, 'regressor__gamma': 0.01}"
+    },
+    "allongement": {
+      "famille": "SVM de régression",
+      "hyperparametres": "{'regressor__C': 10, 'regressor__epsilon': 0.1, 'regressor__gamma': 'scale'}"
+    },
+    "striction": {
+      "famille": "SVM de régression",
+      "hyperparametres": "{'regressor__C': 100, 'regressor__epsilon': 0.1, 'regressor__gamma': 0.01}"
+    }
+  },
+  "familles_sur_le_score": {
+    "SVM de régression": {
+      "erreur": 0.08056001805897908,
+      "gain": 0.3885859519389889,
+      "hyperparametres": "{'C': 1, 'epsilon': 0.02, 'gamma': 0.03}"
+    },
+    "Forêt aléatoire": {
+      "erreur": 0.08165561016768805,
+      "gain": 0.38027090407344555,
+      "hyperparametres": "{'max_depth': None, 'max_features': 0.25, 'min_samples_leaf': 1, 'n_estimators': 100}"
+    },
+    "Boosting": {
+      "erreur": 0.08241501363608143,
+      "gain": 0.3745073757139802,
+      "hyperparametres": "{'learning_rate': 0.1, 'max_iter': 200, 'max_leaf_nodes': 15, 'min_samples_leaf': 5}"
+    },
+    "Bagging": {
+      "erreur": 0.08295381516137487,
+      "gain": 0.37041811618278286,
+      "hyperparametres": "{'estimator__min_samples_leaf': 1, 'max_samples': 1.0, 'n_estimators': 100}"
+    },
+    "k plus proches voisins": {
+      "erreur": 0.09043048532383183,
+      "gain": 0.31367357614683045,
+      "hyperparametres": "{'n_neighbors': 7, 'p': 1, 'preparation__n_axes': None, 'weights': 'distance'}"
+    },
+    "Ridge": {
+      "erreur": 0.09790386367820163,
+      "gain": 0.2569540194432619,
+      "hyperparametres": "{'alpha': 31.622776601683793, 'preparation__indicateurs': True}"
+    },
+    "Lasso": {
+      "erreur": 0.09852299925863468,
+      "gain": 0.25225506082021343,
+      "hyperparametres": "{'alpha': 0.00046415888336127773, 'preparation__indicateurs': True}"
+    },
+    "Linéaire après ACP": {
+      "erreur": 0.10228113628014449,
+      "gain": 0.22373250304463022,
+      "hyperparametres": "{'preparation__n_axes': 20}"
+    },
+    "Arbre": {
+      "erreur": 0.10231576708640149,
+      "gain": 0.22346967091088232,
+      "hyperparametres": "{'max_depth': 20, 'min_samples_leaf': 5, 'min_samples_split': 20}"
+    },
+    "Régression linéaire": {
+      "erreur": 0.10411970157783794,
+      "gain": 0.2097786251983732,
+      "hyperparametres": "{'preparation__indicateurs': False}"
+    },
+    "Référence": {
+      "erreur": 0.13176016860335577,
+      "gain": 0.0,
+      "hyperparametres": "{}"
+    }
+  },
+  "bords_a_elargir": [
+    {
+      "modèle": "Arbre",
+      "hyperparamètre": "max_depth",
+      "valeur retenue": 20.0,
+      "plage testée": "2 a 20",
+      "verdict": "A ELARGIR"
+    },
+    {
+      "modèle": "SVM de régression",
+      "hyperparamètre": "epsilon",
+      "valeur retenue": 0.02,
+      "plage testée": "0.02 a 0.1",
+      "verdict": "A ELARGIR"
+    },
+    {
+      "modèle": "Bagging",
+      "hyperparamètre": "max_samples",
+      "valeur retenue": 1.0,
+      "plage testée": "0.5 a 1.0",
+      "verdict": "A ELARGIR"
+    }
+  ],
+  "test": {
+    "erreur_score": 0.07610463120779692,
+    "gain_score": 0.44292429843295955,
+    "R2_score": 0.6520144322175752,
+    "par_propriete": {
+      "limite d'élasticité": {
+        "unité": "MPa",
+        "modèle": "SVM de régression",
+        "erreur": 42.642486515891115,
+        "MAE": 25.89055548396705,
+        "R2": 0.6659509379012549,
+        "erreur de la référence": 74.98511270066619,
+        "gain": 0.4313206317883914
+      },
+      "résistance à la traction": {
+        "unité": "MPa",
+        "modèle": "SVM de régression",
+        "erreur": 24.95152396987857,
+        "MAE": 17.660699172475294,
+        "R2": 0.8826792591227803,
+        "erreur de la référence": 72.8578986769634,
+        "gain": 0.6575316551399817
+      },
+      "allongement": {
+        "unité": "%",
+        "modèle": "SVM de régression",
+        "erreur": 2.789625339931993,
+        "MAE": 2.044950845671769,
+        "R2": 0.6575324501674955,
+        "erreur de la référence": 4.771771412464547,
+        "gain": 0.41538998858053133
+      },
+      "striction": {
+        "unité": "%",
+        "modèle": "SVM de régression",
+        "erreur": 3.418483965534926,
+        "MAE": 2.307618503312813,
+        "R2": 0.7356064215341509,
+        "erreur de la référence": 6.906764932542487,
+        "gain": 0.5050527998385882
+      }
+    }
+  },
+  "test_consulte_une_seule_fois_dans_ce_rendu": true
+}

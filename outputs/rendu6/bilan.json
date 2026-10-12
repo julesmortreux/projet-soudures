@@ -1,0 +1,25 @@
+{
+  "graine": 42,
+  "methode": "ridge regularisee par le laplacien d un graphe de voisinage",
+  "attribution": "implementation de Gregoire Pascual, notebook 09",
+  "lignes_etiquetees_developpement": 527,
+  "lignes_non_etiquetees_developpement": 771,
+  "soudures_melangees": 205,
+  "soudures_purement_non_etiquetees": 123,
+  "meilleur_gamma": 100.0,
+  "erreur_gamma_nul": 0.10028223779616871,
+  "erreur_meilleur_gamma": 0.10002146731510246,
+  "gain_du_semi_supervise": 0.0026003655961116534,
+  "erreur_boosting_supervise": 0.08242272705348842,
+  "ecart_lineaire_non_lineaire": 0.21668187138591422,
+  "gain_par_rarete": {
+    "0.1": 0.09740594997771213,
+    "0.2": 0.06508610628708744,
+    "0.4": 0.03247685587010263,
+    "0.6": 0.0304761496565904,
+    "0.8": 0.012921026333728935,
+    "1.0": 0.010665671406843713
+  },
+  "decision": "methode non retenue ; le facteur limitant est la classe de modele et non la supervision",
+  "test_consulte": false
+}

@@ -1,0 +1,67 @@
+{
+  "graine": 42,
+  "classification": {
+    "decision": "ecartee apres reglage complet",
+    "meilleure_approche": "ordinal emboîté, Boosting",
+    "F1_macro": 0.6772098297996256,
+    "taux_erreurs_graves": 0.026565464895635674,
+    "decoupages": {
+      "trois classes": [
+        "faible",
+        "moyen",
+        "élevé"
+      ],
+      "deux classes": [
+        "à reprendre",
+        "acceptable"
+      ]
+    }
+  },
+  "selection_de_variables": {
+    "colonnes_apres_encodage": 34,
+    "sous_ensembles_possibles": "17179869184",
+    "tailles_par_critere": {
+      "R2": 33,
+      "R2 ajusté": 29,
+      "Cp": 22,
+      "AIC": 22,
+      "BIC": 16
+    },
+    "taille_minimum_validation": 34,
+    "taille_regle_ecart_type": 17,
+    "variables_stables_sur_cinq_plis": [
+      "Mn",
+      "HeatInput_kJmm"
+    ],
+    "sous_ensemble_BIC": [
+      "Mn",
+      "HeatInput_kJmm",
+      "WeldType_GTAA",
+      "Ti_ppm",
+      "PWHT_T_C",
+      "Si",
+      "PWHT_time_h",
+      "B_ppm",
+      "Mo",
+      "P",
+      "Voltage_V",
+      "WeldType_SAA",
+      "Cr",
+      "WeldType_GMAA",
+      "Nb_ppm",
+      "Ni"
+    ],
+    "variables_lasso": [
+      "B_ppm",
+      "HeatInput_kJmm",
+      "Mn",
+      "PWHT_time_h",
+      "S",
+      "Si",
+      "Ti_ppm",
+      "Voltage_V"
+    ],
+    "conclusion": "aucun gain de prediction, apport interpretatif"
+  },
+  "test_consulte": false
+}

@@ -90,13 +90,19 @@ Les notebooks `01` à `07` et ceux de `notebooks/rendu/` n'ont pas ce décalage.
 - une **issue GitHub par tâche**, assignée à une personne
   → sert à construire le diagramme de Gantt exigé dans le rapport
 
-## À faire
+## Avancement
 
-- [ ] compléter l'équipe ci-dessus
-- [ ] analyse descriptive et pré-traitement
-- [ ] ACP
-- [ ] définir la cible « qualité de soudure »
-- [ ] modèles supervisés + validation croisée
-- [ ] une méthode semi-supervisée (+ biblio)
-- [ ] comparaison des performances
+- [x] structure du projet et données
+- [x] compléter l'équipe ci-dessus
+- [x] analyse descriptive et pré-traitement → `notebooks/rendu/1_donnees`
+- [x] définir la cible « qualité de soudure » → `notebooks/rendu/2_cible`
+- [x] ACP → `notebooks/rendu/3_preparation_exploration`
+- [x] partitionnement par k-moyennes → `notebooks/rendu/3_preparation_exploration`
+- [x] modèles supervisés + validation croisée → `notebooks/rendu/4_modelisation`
+- [x] comparaison des performances → `notebooks/rendu/4_modelisation`
+- [x] classification et sélection de variables → `notebooks/rendu/5_classification_selection`
+- [x] une méthode semi-supervisée → `notebooks/rendu/6_semi_supervise`
+- [x] synthèse et recommandations → `notebooks/rendu/7_synthese_recommandations`
+- [ ] bibliographie : citations dans le texte et dossier `biblio/`
+- [ ] numéro d'équipe et groupe de TD dans le tableau ci-dessus
 - [ ] rapport 5 pages + Gantt
