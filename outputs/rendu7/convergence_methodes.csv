@@ -1,0 +1,18 @@
+variable,méthodes sur 4,"rang, importance par permutation","rang, sélection ascendante",retenue par le Lasso,utilisée par l'arbre lisible
+Mn,4,1.0,1.0,True,True
+HeatInput_kJmm,3,14.0,2.0,True,True
+Si,2,2.0,,True,False
+PWHT_T_C,2,5.0,5.0,False,False
+C,2,7.0,,False,True
+PWHT_time_h,2,10.0,,True,False
+Ti_ppm,2,21.0,4.0,True,False
+Nb_ppm,1,3.0,,False,False
+Ni,1,4.0,,False,False
+Cr,1,6.0,,False,False
+Current_A,1,8.0,,False,False
+Mo,1,9.0,,False,False
+O_ppm,1,12.0,,False,True
+P,1,16.0,,False,True
+Voltage_V,1,17.0,,True,False
+S,1,20.0,,True,False
+B_ppm,1,22.0,,True,False
