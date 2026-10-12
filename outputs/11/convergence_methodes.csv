@@ -1,0 +1,11 @@
+variable,"rang, selection ascendante",retenue par le Lasso,"rang, importance par permutation"
+Mn,1.0,True,1.0
+HeatInput_kJmm,2.0,True,8.0
+PWHT_T_C,3.0,True,2.0
+WeldType_GTAA,4.0,False,
+Ti_ppm,5.0,True,12.0
+Cr,6.0,False,15.0
+PWHT_time_h,7.0,True,5.0
+WeldType_SAA,8.0,False,
+WeldType_GMAA,9.0,False,
+Mo,10.0,False,18.0

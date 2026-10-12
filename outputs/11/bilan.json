@@ -1,0 +1,52 @@
+{
+  "graine": 42,
+  "sklearn": "1.7.2",
+  "cible": "y3",
+  "colonnes_apres_encodage": 34,
+  "sous_ensembles_possibles": "17179869184",
+  "tailles_par_critere": {
+    "R2": 33,
+    "R2_ajuste": 25,
+    "Cp": 19,
+    "AIC": 19,
+    "BIC": 12
+  },
+  "taille_minimum_validation": 34,
+  "taille_regle_ecart_type": 7,
+  "RMSE_minimum_validation": 0.10111043905839175,
+  "RMSE_regle_ecart_type": 0.10429778328090111,
+  "RMSE_toutes_variables": 0.10111043905839175,
+  "variables_stables": [
+    "Mn",
+    "HeatInput_kJmm"
+  ],
+  "sous_ensemble_BIC": [
+    "Mn",
+    "HeatInput_kJmm",
+    "PWHT_T_C",
+    "WeldType_GTAA",
+    "Ti_ppm",
+    "Cr",
+    "PWHT_time_h",
+    "WeldType_SAA",
+    "WeldType_GMAA",
+    "Mo",
+    "S",
+    "Si"
+  ],
+  "variables_lasso": [
+    "B_ppm",
+    "HeatInput_kJmm",
+    "Mn",
+    "Nb_ppm",
+    "O_ppm",
+    "P",
+    "PWHT_T_C",
+    "PWHT_time_h",
+    "S",
+    "Si",
+    "Ti_ppm",
+    "Voltage_V"
+  ],
+  "conclusion": "la selection n'ameliore pas la prediction ; son apport est interpretatif"
+}

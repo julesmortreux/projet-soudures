@@ -1,0 +1,32 @@
+{
+  "k_retenu": 4,
+  "variables": [
+    "C",
+    "Si",
+    "Mn",
+    "S",
+    "P",
+    "Ni",
+    "Cr",
+    "Mo",
+    "V",
+    "Cu",
+    "O_ppm",
+    "Ti_ppm",
+    "N_ppm",
+    "Al_ppm",
+    "B_ppm",
+    "Nb_ppm",
+    "Current_A",
+    "Voltage_V",
+    "HeatInput_kJmm",
+    "InterpassT_C",
+    "PWHT_T_C",
+    "PWHT_time_h"
+  ],
+  "lignes_hors_test": 1298,
+  "lignes_avec_score": 539,
+  "seed": 42,
+  "sklearn": "1.9.1",
+  "regle_choix_k": "meilleure silhouette parmi k>2 de stabilité bootstrap ARI >= 0.75"
+}

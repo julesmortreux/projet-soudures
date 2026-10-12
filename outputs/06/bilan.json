@@ -1,0 +1,40 @@
+{
+  "meilleures_configurations": {
+    "Moyenne constante": {},
+    "Régression linéaire": {
+      "preparation__indicateurs": true
+    },
+    "Ridge": {
+      "alpha": 10.0,
+      "preparation__indicateurs": true
+    },
+    "Lasso": {
+      "alpha": 0.001,
+      "preparation__indicateurs": true
+    },
+    "Linéaire après ACP": {
+      "preparation__n_axes": 18
+    },
+    "k plus proches voisins": {
+      "n_neighbors": 5,
+      "p": 1,
+      "preparation__n_axes": null,
+      "weights": "distance"
+    }
+  },
+  "RMSE_validation_groupes": {
+    "Moyenne constante": 0.14946219084172824,
+    "Régression linéaire": 0.127446833518231,
+    "Ridge": 0.1225672454287489,
+    "Lasso": 0.12410733038908535,
+    "Linéaire après ACP": 0.12394582050597736,
+    "k plus proches voisins": 0.10527642880106129
+  },
+  "regle_selection": "plus petite moyenne des 5 RMSE par groupes sur développement",
+  "plis": "GroupKFold(5), identiques au notebook 05",
+  "nombre_configurations_modeles": 188,
+  "test_deja_consulte": true,
+  "seed": 42,
+  "sklearn": "1.9.1",
+  "sha256_dataset": "adb553802d96a95abc04daea35d5035e5c12947949da8741cb8679d1086f260e"
+}

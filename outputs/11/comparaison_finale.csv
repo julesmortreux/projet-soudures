@@ -1,0 +1,7 @@
+modele,RMSE,variables,gain sur la reference
+"lineaire, 7 variables (regle de l'ecart-type)",0.10429778328090111,7,0.20842706573278635
+"lineaire, 34 variables (minimum de la validation)",0.10111043905839175,34,0.23261756469992412
+"lineaire, toutes les variables",0.10111043905839175,34,0.23261756469992412
+"Ridge, notebook 09",0.09790386367820163,34,0.2569540194432619
+"Forêt aleatoire, notebook 09",0.08166584796609325,34,0.3801932038206779
+"Boosting histogramme, notebook 10",0.08011819939932698,34,0.39193915544757074

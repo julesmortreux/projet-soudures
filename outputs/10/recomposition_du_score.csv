@@ -1,0 +1,3 @@
+voie,modele,RMSE,gain sur la reference
+prediction directe du score,Boosting histogramme,0.08011819939932698,0.39193915544757074
+recomposition depuis les 4 proprietes,Boosting histogramme + Forêt aleatoire,0.07725018148921911,0.4137061123398438

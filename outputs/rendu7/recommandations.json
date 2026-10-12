@@ -1,0 +1,36 @@
+{
+  "niveau_1_etabli": {
+    "leviers": [
+      "HeatInput_kJmm",
+      "Mn"
+    ],
+    "methodes_par_levier": {
+      "HeatInput_kJmm": 3,
+      "Mn": 4
+    },
+    "justification": "designes par au moins trois des quatre determinations independantes, et stables sur les cinq plis",
+    "reserve": "HeatInput_kJmm n'est pas designe par l'importance par permutation, qui dilue les variables correlees : elle est construite a partir de la tension, de l'intensite et de la vitesse"
+  },
+  "niveau_2_suggere": {
+    "groupe": [
+      "C",
+      "PWHT_T_C",
+      "PWHT_time_h",
+      "Si",
+      "Ti_ppm"
+    ],
+    "reserve": "importance comparable, non separables entre eux"
+  },
+  "niveau_3_a_eviter": [
+    "optimiser une seule propriete mecanique",
+    "traiter les resultats comme des effets causaux",
+    "utiliser le modele pour chercher des soudures exceptionnelles"
+  ],
+  "performance_annoncee": {
+    "source": "validation croisee par groupes sur le developpement",
+    "gain_sur_la_reference": 0.3885859519389889,
+    "raison": "le chiffre de test est meilleur mais optimiste : modeles entraines sur plus de donnees et test de petite taille"
+  },
+  "limite_principale": "aucune verite de reference sur la qualite ; la cible est une construction justifiee mais conventionnelle",
+  "ce_que_nous_ne_pouvons_pas_choisir": "le point sur l'arbitrage entre rebuts detectes et fausses alertes, qui demande des couts economiques"
+}

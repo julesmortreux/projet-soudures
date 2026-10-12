@@ -1,0 +1,41 @@
+{
+  "graine": 42,
+  "sklearn": "1.7.2",
+  "approche": "un modele par propriete mecanique, plus le boosting sur y3",
+  "proprietes": [
+    "YieldStrength_MPa",
+    "UTS_MPa",
+    "Elongation_pct",
+    "ReductionArea_pct"
+  ],
+  "configurations_testees": 2204,
+  "meilleur_modele_par_propriete": {
+    "limite d'elasticite": {
+      "modele": "Boosting histogramme",
+      "parametres": "{'l2_regularization': 0.0, 'learning_rate': 0.1, 'max_iter': 500, 'max_leaf_nodes': 7, 'min_samples_leaf': 5}"
+    },
+    "resistance a la traction": {
+      "modele": "Boosting histogramme",
+      "parametres": "{'l2_regularization': 1.0, 'learning_rate': 0.1, 'max_iter': 500, 'max_leaf_nodes': 7, 'min_samples_leaf': 5}"
+    },
+    "allongement": {
+      "modele": "Boosting histogramme",
+      "parametres": "{'l2_regularization': 0.0, 'learning_rate': 0.1, 'max_iter': 500, 'max_leaf_nodes': 7, 'min_samples_leaf': 5}"
+    },
+    "striction": {
+      "modele": "Forêt aleatoire",
+      "parametres": "{'max_depth': 20, 'max_features': 0.5, 'min_samples_leaf': 1, 'n_estimators': 50}"
+    }
+  },
+  "gain_par_propriete": {
+    "limite d'elasticite": 0.5762683761688576,
+    "resistance a la traction": 0.5881862062852798,
+    "allongement": 0.4979228388644269,
+    "striction": 0.45361317689160296
+  },
+  "meilleur_sur_y3": "Boosting histogramme",
+  "gain_sur_y3": 0.39193915544757074,
+  "score_recompose_RMSE": 0.07725018148921911,
+  "score_direct_RMSE": 0.08011819939932698,
+  "test_consulte": false
+}

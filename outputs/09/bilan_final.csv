@@ -1,0 +1,7 @@
+indicateur,ancienne cible y2 (notebook 05),nouvelle cible y3 (ce notebook)
+modele,Forêt aléatoire,Forêt aleatoire
+RMSE par groupes,0.09158314940273017,0.08266450780062248
+MAE par groupes,0.06800866343017384,0.05748068739739556
+R2 par groupes,0.6002251711621538,0.5894394377345535
+RMSE de la reference,0.1474705445429503,0.13661452293416576
+gain sur la reference,0.37897327438119766,0.39490688087050363
