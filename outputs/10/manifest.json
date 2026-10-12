@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "methode": "quantiles du score_compromis, ponderes par groupe (poids total 1 par groupe), appris sur le developpement",
+  "regle": "classe superieure si score >= seuil",
+  "classes_3": {
+    "quantiles": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "seuils": [
+      0.35040378590729926,
+      0.47471333244959585
+    ],
+    "noms": {
+      "0": "Faible",
+      "1": "Moyen",
+      "2": "Élevé"
+    }
+  },
+  "classes_2": {
+    "quantiles": [
+      0.5
+    ],
+    "seuils": [
+      0.4103891981658256
+    ],
+    "noms": {
+      "0": "Bas",
+      "1": "Haut"
+    }
+  },
+  "validation_croisee": "recalculer score puis seuils dans chaque pli avec plis_classes"
+}
