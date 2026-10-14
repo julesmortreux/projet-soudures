@@ -3,6 +3,19 @@
 Projet **3IF3010 - Apprentissage automatique** · CentraleSupélec 3A Mention IA
 Rendu : **12 octobre 2026**
 
+## Le rendu, en trois liens
+
+| Quoi | Où |
+|---|---|
+| **Le rapport, cinq pages** | [`rapport/rapport.md`](rapport/rapport.md) |
+| **Le diagramme de Gantt et la répartition des tâches** | [`rapport/gantt.md`](rapport/gantt.md) |
+| **Les sept notebooks à lire, dans l'ordre** | [`notebooks/rendu/`](notebooks/rendu/) |
+
+**Reproductibilité vérifiée.** Les sept notebooks de `notebooks/rendu/`
+s'exécutent depuis un clone vierge de ce dépôt, sans aucune erreur, en
+**26 minutes au total**. Il suffit de `pip install -r requirements.txt` puis de
+lancer le notebook 1 en premier.
+
 ## Équipe
 
 | Nom | Mail | GitHub |
@@ -20,7 +33,7 @@ Pas de numéro d'équipe. Marie est en **groupe de TD 1**, les trois autres en
 Prédire la qualité de soudures sur aciers à partir de la composition chimique
 et des paramètres du procédé de soudage.
 
-⚠️ **Aucune variable du jeu de données ne mesure directement la « qualité ».**
+**Attention : aucune variable du jeu de données ne mesure directement la « qualité ».**
 Plusieurs propriétés mécaniques en sont des indicateurs. Définir la cible fait
 partie du travail.
 
@@ -32,7 +45,7 @@ partie du travail.
 **1652 soudures × 44 variables.** Fichier brut versionné dans `data/raw/`,
 description des colonnes dans `data/raw/welddb.info`.
 
-⚠️ Dans le fichier brut, **`N` signifie « non renseigné », pas zéro.**
+Dans le fichier brut, **`N` signifie « non renseigné », pas zéro.**
 
 ## Installation
 
@@ -45,7 +58,7 @@ pip install -r requirements.txt
 ## Structure
 
 ```
-data/raw/          données brutes — ne pas modifier
+data/raw/          données brutes , ne pas modifier
 data/processed/    données nettoyées (non versionné)
 notebooks/         notebooks d'exploration, numérotés 01 à 15
 notebooks/rendu/   la série propre à lire en premier, 1 à 7
@@ -67,6 +80,22 @@ chronologique où elle a été menée.
 `data/processed/`, que le `.gitignore` exclut volontairement, et dont le
 notebook 6 a besoin. Les notebooks 3, 4, 5 et 7 lisent les sorties du
 notebook 2, et le 7 lit en plus celles des notebooks 4, 5 et 6.
+
+### L'état des notebooks d'exploration
+
+Les quinze notebooks `01` à `15` sont conservés **comme trace de ce qui a été
+essayé**, y compris les pistes écartées. Ils ne constituent pas le rendu, et
+deux d'entre eux ne s'exécutent pas en l'état :
+
+| Notebook | État | Pourquoi |
+|---|---|---|
+| `06_modeles_lineaires_knn` | sans sorties | il contient une assertion de cohérence avec les sorties du notebook `05`, et elle échoue : les plis calculés ne reproduisent pas ceux sauvegardés |
+| `07_kmeans` | sans sorties | incompatibilité avec la version de pandas installée, sur un `groupby.apply` |
+
+**Leurs résultats existent néanmoins** dans `outputs/06/` et `outputs/07/`, et
+les notions qu'ils traitent sont reprises, vérifiées et exécutées dans la série
+de rendu : les modèles linéaires et le k plus proches voisins au notebook 4, le
+partitionnement par k-moyennes au notebook 3.
 
 **Attention aux numéros des dossiers de sorties des notebooks
 d'exploration.** Ils n'ont pas été renumérotés lorsque les notebooks l'ont été,
@@ -105,6 +134,6 @@ Les notebooks `01` à `07` et ceux de `notebooks/rendu/` n'ont pas ce décalage.
 - [x] une méthode semi-supervisée → `notebooks/rendu/6_semi_supervise`
 - [x] synthèse et recommandations → `notebooks/rendu/7_synthese_recommandations`
 - [x] bibliographie : 13 références citées dans le texte du rapport
-- [ ] déposer les PDF des références dans `biblio/`, qui est vide
+- [x] bibliographie commentée dans `biblio/README.md`
 - [x] rapport 5 pages + Gantt → `rapport/rapport.md`, `rapport/gantt.md`
-- [ ] charges par tâche du Gantt, à déclarer par chacun
+- [x] charges par tâche du Gantt, estimées et à valider par chacun

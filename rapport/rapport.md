@@ -201,9 +201,15 @@ classes, et c'est pourtant ce critère qui départage ici.
 demanderait 2^34, soit plus de 17 milliards de modèles, donc nous avons utilisé
 la sélection ascendante et l'élimination descendante, avec Cp, AIC, BIC et R2
 ajusté, puis la validation croisée [11]. Le minimum est atteint par le modèle
-complet, mais **la règle de l'écart-type retient 7 variables pour 3,2 %
-d'erreur en plus**. Vingt-sept variables de moins pour trois pourcents : c'est
-l'arbitrage que cette règle permet d'expliciter.
+complet, mais **la règle de l'écart-type retient 17 variables pour 3,5 %
+d'erreur en plus**. Dix-sept variables de moins pour trois et demi pourcents :
+c'est l'arbitrage que cette règle permet d'expliciter.
+
+**Une précision de méthode sur ce chiffre.** La sélection est refaite **à
+l'intérieur de chaque pli**. Notre notebook d'exploration, où elle était faite
+une seule fois sur tout le développement puis validée dessus, annonçait 7
+variables pour 3,2 % : c'est une fuite d'information, et elle surestime à quel
+point on peut réduire le nombre de variables.
 
 **Méthode semi-supervisée.** 771 lignes ont des entrées complètes sans cible
 calculable. Nous avons implémenté une ridge régularisée par le laplacien d'un
