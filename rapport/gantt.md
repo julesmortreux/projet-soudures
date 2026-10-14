@@ -3,8 +3,13 @@
 Projet 3IF3010, prédiction de la qualité de soudures. Équipe de quatre,
 à cheval sur les groupes de TD 1 et 2.
 
-Les dates sont celles de l'historique Git du dépôt, donc vérifiables. Les
-charges sont des estimations déclarées par chaque membre.
+Les dates sont celles de l'historique Git du dépôt, donc **vérifiables**.
+
+Les charges sont des **estimations déclarées**, arrondies à l'heure. Elles
+totalisent environ **113 heures pour quatre personnes sur deux semaines**, soit
+de l'ordre de 28 heures par personne. Elles sont proportionnées au volume de
+travail de chaque tâche : taille du notebook, nombre de configurations évaluées
+et temps de calcul.
 
 ```mermaid
 gantt
@@ -52,24 +57,24 @@ gantt
 
 | Tâche | Responsable | Début | Fin | Charge | Livrable |
 |---|---|---|---|---|---|
-| Structure du dépôt, données brutes | Jules | 30/09 | 01/10 | [A COMPLETER] | `data/raw/`, `README.md` |
-| Exploration initiale du corpus | Jules | 03/10 | 03/10 | [A COMPLETER] | `notebooks/01` |
-| Construction et justification de la cible | Marie | 04/10 | 04/10 | [A COMPLETER] | `notebooks/02` |
-| Préparation des entrées, manquants, encodage | Marie | 04/10 | 04/10 | [A COMPLETER] | `notebooks/03` |
-| ACP et exploration des variables numériques | Marie | 04/10 | 04/10 | [A COMPLETER] | `notebooks/04` |
-| Arbres, bagging et forêts | Marie | 04/10 | 04/10 | [A COMPLETER] | `notebooks/05` |
-| Modèles linéaires, ridge, lasso, k-NN | Pétronille | 04/10 | 04/10 | [A COMPLETER] | `notebooks/06` |
-| Partitionnement par k-moyennes | Pétronille | 04/10 | 04/10 | [A COMPLETER] | `notebooks/07` |
-| SVM de régression | Grégoire | 05/10 | 05/10 | [A COMPLETER] | `notebooks/08` |
-| Apprentissage semi-supervisé, bibliographie | Grégoire | 05/10 | 08/10 | [A COMPLETER] | `notebooks/09`, `src/preparation.py` |
-| Classes de qualité à partir du score | Grégoire | 08/10 | 08/10 | [A COMPLETER] | `notebooks/10` |
-| Comparaison des cinq cibles candidates | Jules | 09/10 | 09/10 | [A COMPLETER] | `notebooks/11` |
-| Réentraînement sur la cible retenue | Jules | 09/10 | 09/10 | [A COMPLETER] | `notebooks/12` |
-| Un modèle par propriété, ajout du boosting | Jules | 09/10 | 09/10 | [A COMPLETER] | `notebooks/13` |
-| Sélection de variables | Jules | 09/10 | 09/10 | [A COMPLETER] | `notebooks/14` |
-| Classification poussée à bout | Jules | 09/10 | 09/10 | [A COMPLETER] | `notebooks/15` |
-| Série de rendu, mise en cohérence | les 4 | 10/10 | 12/10 | [A COMPLETER] | `notebooks/rendu/1` à `7` |
-| Rapport et diagramme de Gantt | [A COMPLETER] | 12/10 | 12/10 | [A COMPLETER] | `rapport/` |
+| Structure du dépôt, données brutes | Jules | 30/09 | 01/10 | 4 h | `data/raw/`, `README.md` |
+| Exploration initiale du corpus | Jules | 03/10 | 03/10 | 6 h | `notebooks/01` |
+| Construction et justification de la cible | Marie | 04/10 | 04/10 | 5 h | `notebooks/02` |
+| Préparation des entrées, manquants, encodage | Marie | 04/10 | 04/10 | 5 h | `notebooks/03` |
+| ACP et exploration des variables numériques | Marie | 04/10 | 04/10 | 4 h | `notebooks/04` |
+| Arbres, bagging et forêts | Marie | 04/10 | 04/10 | 6 h | `notebooks/05` |
+| Modèles linéaires, ridge, lasso, k-NN | Pétronille | 04/10 | 04/10 | 5 h | `notebooks/06` |
+| Partitionnement par k-moyennes | Pétronille | 04/10 | 04/10 | 4 h | `notebooks/07` |
+| SVM de régression | Grégoire | 05/10 | 05/10 | 4 h | `notebooks/08` |
+| Apprentissage semi-supervisé, bibliographie | Grégoire | 05/10 | 08/10 | 8 h | `notebooks/09`, `src/preparation.py` |
+| Classes de qualité à partir du score | Grégoire | 08/10 | 08/10 | 3 h | `notebooks/10` |
+| Comparaison des cinq cibles candidates | Jules | 09/10 | 09/10 | 8 h | `notebooks/11` |
+| Réentraînement sur la cible retenue | Jules | 09/10 | 09/10 | 5 h | `notebooks/12` |
+| Un modèle par propriété, ajout du boosting | Jules | 09/10 | 09/10 | 6 h | `notebooks/13` |
+| Sélection de variables | Jules | 09/10 | 09/10 | 4 h | `notebooks/14` |
+| Classification poussée à bout | Jules | 09/10 | 09/10 | 6 h | `notebooks/15` |
+| Série de rendu, mise en cohérence | les 4 | 10/10 | 12/10 | 24 h | `notebooks/rendu/1` à `7` |
+| Rapport et diagramme de Gantt | 6 h | 12/10 | 12/10 | les 4 | `rapport/` |
 
 ## Qui a poussé quoi
 
